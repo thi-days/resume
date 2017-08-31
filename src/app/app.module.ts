@@ -8,6 +8,16 @@ import { MenuHeaderComponent } from './menu-header/menu-header.component';
 import { AboutSectionComponent } from './about-section/about-section.component';
 import { SkillsSectionComponent } from './skills-section/skills-section.component';
 import { PortfolioSectionComponent } from './portfolio-section/portfolio-section.component';
+import { ExperienceSectionComponent } from './experience-section/experience-section.component';
+import { EducationSectionComponent } from './education-section/education-section.component';
+import { ClientsSectionComponent } from './clients-section/clients-section.component';
+import { ReferencesSectionComponent } from './references-section/references-section.component';
+import { PricesSectionComponent } from './prices-section/prices-section.component';
+import { BlogSectionComponent } from './blog-section/blog-section.component';
+import { InterestsSectionComponent } from './interests-section/interests-section.component';
+import { CalendarSectionComponent } from './calendar-section/calendar-section.component';
+import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +27,17 @@ import { PortfolioSectionComponent } from './portfolio-section/portfolio-section
     MenuHeaderComponent,
     AboutSectionComponent,
     SkillsSectionComponent,
-    PortfolioSectionComponent
+    PortfolioSectionComponent,
+    ExperienceSectionComponent,
+    EducationSectionComponent,
+    ClientsSectionComponent,
+    ReferencesSectionComponent,
+    PricesSectionComponent,
+    BlogSectionComponent,
+    InterestsSectionComponent,
+    CalendarSectionComponent,
+    ContactSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
