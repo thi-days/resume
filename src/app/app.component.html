@@ -22,6 +22,12 @@
   <div class="mobile-nav">
     <button class="btn-mobile mobile-nav-close"><i class="rsicon rsicon-close"></i></button>
 
+    <ul>
+      <li *ngFor="let item of resumeSections">
+        {{item.name}}
+      </li>
+    </ul>
+
     <div class="mobile-nav-inner">
       <nav id="mobile-nav" class="nav">
         <ul class="clearfix">
