@@ -12,12 +12,13 @@ import { ResumeSections } from "./resume-sections";
 })
 export class AppComponent {
   /** List of sections that will be used in the page */
-  public resumeSections = new ResumeSections;
+  public resumeSections = new ResumeSections();
 
   /** Initialize all items that will be used in this controller */
   constructor() {
     // Creates all default sections
-    this.resumeSections.createResumeSections();
+    this.resumeSections.resetResumeSections();
+    console.log(this.resumeSections.sections.length);
 
     // ...
   }
