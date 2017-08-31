@@ -11,10 +11,15 @@ import { ResumeSections } from "./resume-sections";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  /** Create the sections that will be used in the page */
-  public resumeSections = new ResumeSections;
+  /** List of sections that will be used in the page */
+  public resumeSections = new ResumeSections();
 
+  /** Initialize all items that will be used in this controller */
   constructor() {
-    this.resumeSections.createResumeSections();
+    // Creates all default sections
+    this.resumeSections.resetResumeSections();
+    console.log(this.resumeSections.sections.length);
+
+    // ...
   }
 }
