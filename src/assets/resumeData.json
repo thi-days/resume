@@ -1,0 +1,232 @@
+{
+  "general": {
+    "name": "Thiago Dias",
+    "ocupation": "Desenvolvedor e WebDesigner"
+  },
+
+  "social": {
+    "facebook": "",
+    "twitter": "",
+    "linkedin": ""
+  },
+
+  "about": {
+    "age": 23,
+    "address": "Avenida Paulista, 1234",
+    "email": "thiagodbrt@gmail.com",
+    "phone": "+55 11 9 9108-0203",
+    "freelance": "",
+    "vacation": ""
+  },
+
+  "freeDescription": "",
+
+  "skills": [{
+      "name": "Wordpress",
+      "percent": 80
+    },
+    {
+      "name": "JavaScript",
+      "percent": 52
+    },
+    {
+      "name": "Drupal",
+      "percent": 61
+    },
+    {
+      "name": "HTML & CSS",
+      "percent": 89
+    },
+    {
+      "name": "PHP & MySQL",
+      "percent": 99
+    },
+    {
+      "name": "Photoshop",
+      "percent": 97
+    }
+  ],
+
+  "portfolio": [{
+      "name": "Street Photography",
+      "url": "http://google.com.br",
+      "img": "about:blank"
+    },
+    {
+      "name": "Suspension Bridge",
+      "url": "http://google.com.br",
+      "img": "about:blank"
+    },
+    {
+      "name": "Rocky Mountains",
+      "url": "http://google.com.br",
+      "img": "about:blank"
+    }
+  ],
+
+  "experience": [{
+      "company": "PINEAPPLE",
+      "ocupation": "FULL STACK DEVELOPER",
+      "period": "2014 - 2016",
+      "description": ""
+    },
+    {
+      "company": "MACROSOOFT",
+      "ocupation": "WEB DEVELOPER",
+      "period": "2011 - 2014",
+      "description": ""
+    },
+    {
+      "company": "JOOJLE",
+      "ocupation": "SYSTEMS ANALYST / WEB DEVELOPER",
+      "period": "2003 - 2006",
+      "description": ""
+    },
+    {
+      "company": "IBBBM",
+      "ocupation": "WEBMASTER / WEB DEVELOPER",
+      "period": "2004 - 2008",
+      "description": ""
+    },
+    {
+      "company": "HEADBOOK",
+      "ocupation": "INTERN",
+      "period": "2003 - 2004",
+      "description": ""
+    },
+    {
+      "company": "UBEAR",
+      "ocupation": "TAXI DRIVER",
+      "period": "2000 - 2003",
+      "description": ""
+    }
+  ],
+
+  "education": {
+    "courses": [{
+        "course": "Master of Information Technology",
+        "institute": "MIT&T",
+        "period": "2012 - 2014"
+      },
+      {
+        "course": "Bachelor Computer Engineering",
+        "institute": "HARWARG UNIVERSITEY",
+        "period": "2008 - 2012"
+      },
+      {
+        "course": "Certificate for courses of Computer Science",
+        "institute": "STANFOORB UNIVERSITEY",
+        "period": "2007 - 2008"
+      },
+      {
+        "course": "1 week Courses of Information Systems",
+        "institute": "OXFORZ UNIVERSITEY",
+        "period": "2007 - 2008"
+      },
+      {
+        "course": "Software Engineering",
+        "institute": "SORDONNE UNIVERSITY",
+        "period": "2006 - 2007"
+      }
+    ],
+
+    "logos": [{
+        "description": "Angular",
+        "url": ""
+      },
+      {
+        "description": "Wordpress",
+        "url": ""
+      },
+      {
+        "description": "Evernote",
+        "url": ""
+      },
+      {
+        "description": "Compass",
+        "url": ""
+      },
+      {
+        "description": "Teaspoon",
+        "url": ""
+      },
+      {
+        "description": "Bootstrap",
+        "url": ""
+      }
+    ]
+  },
+
+  "references": [{
+      "name": "Alexander Jokovich",
+      "avatar": "",
+      "company": "",
+      "reference": ""
+    },
+    {
+      "name": "James Bond",
+      "avatar": "",
+      "company": "",
+      "reference": ""
+    },
+    {
+      "name": "William Shakespeare",
+      "avatar": "",
+      "company": "",
+      "reference": ""
+    }
+  ],
+
+  "pricing": {
+
+  },
+
+  "interest": {
+    "description": "",
+    "interests": [{
+        "name": "Bicycling",
+        "icon": ""
+      },
+      {
+        "name": "Watch Movies",
+        "icon": ""
+      },
+      {
+        "name": "Skating",
+        "icon": ""
+      },
+      {
+        "name": "Shopping",
+        "icon": ""
+      },
+      {
+        "name": "Playing Tennis",
+        "icon": ""
+      },
+      {
+        "name": "Playing Bowling",
+        "icon": ""
+      },
+      {
+        "name": "Swimming",
+        "icon": ""
+      }
+    ]
+  },
+
+  "calendar": {
+
+  },
+
+  "contact": {
+    "address": "",
+    "phone": "",
+    "e-mail": "",
+    "skype": "",
+    "maps": {
+      "latitude": "",
+      "longitude": "",
+      "zoom": ""
+    }
+  }
+}

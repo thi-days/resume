@@ -6,6 +6,8 @@ import { ResumeSection } from "./resume-section";
  */
 export class ResumeSections {
 
+  private static _instance: ResumeSections;
+
   public sections: Array<ResumeSection> = [];
 
   /** This method creates all the sections that will be used in the page */
@@ -28,5 +30,16 @@ export class ResumeSections {
   resetResumeSections(): void {
     this.clearResumeSections();
     this.createResumeSections();
+  }
+
+  public static getInstance(): ResumeSections {
+    // Creating first instance
+    if (this._instance == null) {
+      this._instance = new ResumeSections();
+      this._instance.resetResumeSections();
+    }
+
+    // Returning instance
+    return this._instance;
   }
 }

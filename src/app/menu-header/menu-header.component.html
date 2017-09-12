@@ -13,7 +13,9 @@
           <div class="nav-wrap">
             <nav id="nav" class="nav">
               <ul class="clearfix">
-                <li><a href="#about">About</a></li>
+                <li *ngFor="let item of resumeSections.sections"><a href="{{item.url}}">{{item.name}}</a></li>
+                
+                <!-- <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -34,7 +36,7 @@
                   </ul>
                 </li>
                 <li><a href="#calendar">Calendar <span></span></a></li>
-                <li><a href="#contact">Contact <span></span></a></li>
+                <li><a href="#contact">Contact <span></span></a></li> -->
               </ul>
             </nav>
 

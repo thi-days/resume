@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ResumeSections } from "./resume-sections";
+import { ResumeSections } from "./resume/resume-sections";
 
 /**
  * This component is the controller of the main (home?) page
@@ -11,15 +11,7 @@ import { ResumeSections } from "./resume-sections";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  /** List of sections that will be used in the page */
-  public resumeSections = new ResumeSections();
-
   /** Initialize all items that will be used in this controller */
   constructor() {
-    // Creates all default sections
-    this.resumeSections.resetResumeSections();
-    console.log(this.resumeSections.sections.length);
-
-    // ...
   }
 }
