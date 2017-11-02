@@ -1,19 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-import { ResumeService } from '../resume/resume-service';
+import { Component, Input } from '@angular/core';
+import { About } from '../models/about.model';
+import { General } from '../models/general.model';
 
 @Component({
   selector: 'app-about-section',
   templateUrl: './about-section.component.html',
   styleUrls: ['./about-section.component.css']
 })
-export class AboutSectionComponent implements OnInit {
-  aboutData: any;
+export class AboutSectionComponent {
 
-  constructor(private _resumeService: ResumeService) {
-  }
+  @Input()
+  private generalData: General = new General();
 
-  ngOnInit() {
-    // this.subscribe.subscribe(response => this.aboutData = response);
-  }
+  @Input()
+  private aboutData: About = new About();
+
+  constructor() { }
 
 }
