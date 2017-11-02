@@ -1,7 +1,13 @@
 {
+  "profilePicture": {
+    "alt": "",
+    "imgPath": "",
+    "url": ""
+  },
+
   "general": {
     "name": "Thiago Dias",
-    "ocupation": "Desenvolvedor e WebDesigner"
+    "ocupation": "Desenvolvedor Fullstack"
   },
 
   "about": {
