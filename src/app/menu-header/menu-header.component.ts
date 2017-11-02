@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ResumeSections } from "../resume/resume-sections";
+import { ResumeService } from '../services/resume-service';
+import { ResumeSection } from '../resume/resume-section';
 
 @Component({
   selector: 'app-menu-header',
@@ -8,13 +9,17 @@ import { ResumeSections } from "../resume/resume-sections";
 })
 export class MenuHeaderComponent implements OnInit {
   /** List of sections that will be used in the page */
-  public resumeSections;
+  public resumeSections: ResumeSection[] = [];
 
-  constructor() { }
+  constructor(
+    public resumeService: ResumeService
+  ) { }
 
   ngOnInit() {
-    // Get singleton instance
-    this.resumeSections = ResumeSections.getInstance();
+    // Getting resume sections from json file
+    this.resumeService.getResumeSections().subscribe(result => {
+      this.resumeSections = result;
+    });
   }
 
 }
