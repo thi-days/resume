@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { ResumeSections } from './resume/resume-sections';
+import { Component, OnInit } from '@angular/core';
+import { ResumeService } from './services/resume-service';
+import { Resume } from './models/resume.model';
 
 /**
  * This component is the controller of the main (home?) page
@@ -10,8 +11,20 @@ import { ResumeSections } from './resume/resume-sections';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  /** Initialize all items that will be used in this controller */
-  constructor() {
+export class AppComponent implements OnInit {
+
+  // Resume fetched data that will be shared along all application
+  private resumeData: Resume = new Resume();
+
+  constructor(
+    // Dependency Injection of ResumeService
+    private resumeService: ResumeService
+  ) { }
+
+  ngOnInit() {
+    // Get resume data from json file
+    this.resumeService.getResumeData().subscribe(data => {
+      this.resumeData = data;
+    });
   }
 }
