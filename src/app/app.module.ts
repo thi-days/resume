@@ -20,6 +20,7 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
 import { FooterComponent } from './footer/footer.component';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
+import { ResumeService } from './resume/resume-service';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,10 @@ import { HttpClientModule } from '@angular/common/http';
     HttpModule,
     HttpClientModule
   ],
-  providers: [HttpModule],
+  providers: [
+    HttpModule,
+    ResumeService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
