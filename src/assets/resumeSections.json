@@ -1,10 +1,10 @@
 {
     "sections": [
-        { "name": "About", "url": "#about", "enabled": true },
-        { "name": "Skills", "url": "#skills", "enabled": true },
+        { "name": "Sobre", "url": "#about", "enabled": true },
+        { "name": "Habilidades", "url": "#skills", "enabled": true },
         { "name": "Portfolio", "url": "#portfolio", "enabled": true },
-        { "name": "Experience", "url": "#experience", "enabled": true },
-        { "name": "References", "url": "#references", "enabled": true },
-        { "name": "Contact", "url": "#contact", "enabled": true }
+        { "name": "Experiência", "url": "#experience", "enabled": true },
+        { "name": "Referências", "url": "#references", "enabled": true },
+        { "name": "Contato", "url": "#contact", "enabled": true }
     ]
 }
