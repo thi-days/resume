@@ -1,3 +1,3 @@
 export class FreeDescription {
-    text: string;
+    public text: string;
 }

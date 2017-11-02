@@ -1,6 +1,6 @@
 export class Reference {
-    name: string;
-    avatar: string;
-    company: string;
-    reference: string;
+    public name: string;
+    public avatar: string;
+    public company: string;
+    public reference: string;
 }

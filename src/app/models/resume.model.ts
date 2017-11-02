@@ -10,23 +10,25 @@ import { Logo } from './logos.model';
 import { Reference } from './reference.model';
 import { Interest } from './interest.model';
 import { Contact } from './contact.model';
+import { ProfilePicture } from './profile-picture.model';
 
 export class Resume {
 
-    general: General;
-    about: About;
-    social: Social;
-    freeDescription: FreeDescription;
-    skills: Skill[];
-    portfolios: Portfolio[];
-    experiences: WorkExperience[];
-    education: Course[];
-    logos: Logo[];
-    references: Reference[];
+    public profilePicture: ProfilePicture;
+    public general: General;
+    public about: About;
+    public social: Social;
+    public freeDescription: FreeDescription;
+    public skills: Skill[];
+    public portfolios: Portfolio[];
+    public experiences: WorkExperience[];
+    public education: Course[];
+    public logos: Logo[];
+    public references: Reference[];
     // pricing: Pricing[]; ???
-    interests: Interest[];
+    public interests: Interest[];
     // calendar: Calendar[];
-    contact: Contact;
+    public contact: Contact;
 
     constructor() {
     }

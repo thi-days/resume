@@ -1,6 +1,6 @@
 export class Portfolio {
-    name: string;
-    category: string;
-    url: string;
-    imgPath: string;
+    public name: string;
+    public category: string;
+    public url: string;
+    public imgPath: string;
 }

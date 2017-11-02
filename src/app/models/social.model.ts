@@ -1,8 +1,8 @@
 export class Social {
-    facebook: string;
-    twitter: string;
-    linkedin: string;
-    google_plus: string;
-    dribble: string;
-    instagram: string;
+    public facebook: string;
+    public twitter: string;
+    public linkedin: string;
+    public google_plus: string;
+    public dribble: string;
+    public instagram: string;
 }

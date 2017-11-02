@@ -1,5 +1,5 @@
 export class Course {
-    course: string;
-    institute: string;
-    period: string;
+    public course: string;
+    public institute: string;
+    public period: string;
 }

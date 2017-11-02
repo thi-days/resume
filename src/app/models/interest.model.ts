@@ -1,4 +1,4 @@
 export class Interest {
-    name: string;
-    iconPath: string;
+    public name: string;
+    public iconPath: string;
 }

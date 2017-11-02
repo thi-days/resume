@@ -1,6 +1,6 @@
 export class WorkExperience {
-    company: string;
-    ocupation: string;
-    period: string;
-    description: string;
+    public company: string;
+    public ocupation: string;
+    public period: string;
+    public description: string;
 }

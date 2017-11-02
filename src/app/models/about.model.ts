@@ -1,8 +1,8 @@
 export class About {
-    age: number;
-    address: string;
-    email: string;
-    phone: string;
-    freelance: Date;
-    vacation: Date;
+    public age: number;
+    public address: string;
+    public email: string;
+    public phone: string;
+    public freelance: Date;
+    public vacation: Date;
 }

@@ -1,4 +1,4 @@
 export class General {
-    name: string;
-    ocupation: string;
+    public name: string;
+    public ocupation: string;
 }
