@@ -4,12 +4,6 @@
     "ocupation": "Desenvolvedor e WebDesigner"
   },
 
-  "social": {
-    "facebook": "",
-    "twitter": "",
-    "linkedin": ""
-  },
-
   "about": {
     "age": 23,
     "address": "Avenida Paulista, 1234",
@@ -17,6 +11,15 @@
     "phone": "+55 11 9 9108-0203",
     "freelance": "",
     "vacation": ""
+  },
+
+  "social": {
+    "facebook": "",
+    "twitter": "",
+    "linkedin": "",
+    "google_plus": "",
+    "dribble": "",
+    "instagram": ""
   },
 
   "freeDescription": "",
@@ -49,18 +52,21 @@
 
   "portfolio": [{
       "name": "Street Photography",
+      "category": "",
       "url": "http://google.com.br",
-      "img": "about:blank"
+      "imgPath": "about:blank"
     },
     {
       "name": "Suspension Bridge",
+      "category": "",
       "url": "http://google.com.br",
-      "img": "about:blank"
+      "imgPath": "about:blank"
     },
     {
       "name": "Rocky Mountains",
+      "category": "",
       "url": "http://google.com.br",
-      "img": "about:blank"
+      "imgPath": "about:blank"
     }
   ],
 
@@ -221,7 +227,7 @@
   "contact": {
     "address": "",
     "phone": "",
-    "e-mail": "",
+    "email": "",
     "skype": "",
     "maps": {
       "latitude": "",
