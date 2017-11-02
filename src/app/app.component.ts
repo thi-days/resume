@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ResumeSections } from "./resume/resume-sections";
+import { ResumeSections } from './resume/resume-sections';
 
 /**
  * This component is the controller of the main (home?) page
