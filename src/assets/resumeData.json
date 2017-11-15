@@ -20,15 +20,19 @@
   },
 
   "social": {
-    "facebook": "",
-    "twitter": "",
-    "linkedin": "",
+    "facebook": "https://facebook.com/thi.days",
+    "twitter": "https://twitter.com/thi_days",
+    "linkedin": "https://linkedin.com/in/thidays",
     "google_plus": "",
     "dribble": "",
     "instagram": ""
   },
 
-  "freeDescription": "",
+  "freeDescription": {
+    "buttonUrl": "",
+    "buttonText": "Baixar Currículo",
+    "text": "Este é um texto livre"
+  },
 
   "skills": [{
       "name": "Wordpress",
