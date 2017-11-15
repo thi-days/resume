@@ -27,6 +27,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     // Get resume data from json file
     this.resumeService.getResumeData().subscribe(data => {
+      console.warn(data);
       this.resumeData = data;
     });
   }

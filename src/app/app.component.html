@@ -41,7 +41,9 @@
         ></app-about-section>
         <!-- #about -->
 
-        <app-skills-section></app-skills-section>
+        <app-skills-section
+          [skillsData]="resumeData?.skills"
+        ></app-skills-section>
         <!-- #skills -->
 
         <app-portfolio-section></app-portfolio-section>
