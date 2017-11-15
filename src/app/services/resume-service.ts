@@ -16,7 +16,8 @@ export class ResumeService {
   }
 
   getResumeData() {
-    return this.http.get('assets/resumeData.json').map( response => response.json());
+    return this.http.get('assets/resumeData.json')
+      .map(response => response.json());
   }
 
 }
