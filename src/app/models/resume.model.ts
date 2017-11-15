@@ -30,6 +30,18 @@ export class Resume {
     // calendar: Calendar[];
     public contact: Contact;
 
-    constructor() {
+    constructor(createInternalElements: boolean = false) {
+        if (createInternalElements) {
+            this.createInternalElements();
+        }
+    }
+
+    createInternalElements(): void {
+        this.profilePicture = new ProfilePicture();
+        this.general = new General();
+        this.about = new About();
+        this.social = new Social();
+        this.freeDescription = new FreeDescription();
+        this.contact = new Contact();
     }
 }
