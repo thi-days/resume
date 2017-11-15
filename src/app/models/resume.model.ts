@@ -2,7 +2,6 @@ import { General } from './general.model';
 import { About } from './about.model';
 import { Social } from './social.model';
 import { FreeDescription } from './free-description.model';
-import { Skill } from './skill.model';
 import { Portfolio } from './portfolio.model';
 import { WorkExperience } from './work-experience.model';
 import { Course } from './education.model';
@@ -11,6 +10,7 @@ import { Reference } from './reference.model';
 import { Interest } from './interest.model';
 import { Contact } from './contact.model';
 import { ProfilePicture } from './profile-picture.model';
+import { Skills } from './skills.model';
 
 export class Resume {
 
@@ -19,7 +19,7 @@ export class Resume {
     public about: About;
     public social: Social;
     public freeDescription: FreeDescription;
-    public skills: Skill[];
+    public skills: Skills;
     public portfolios: Portfolio[];
     public experiences: WorkExperience[];
     public education: Course[];
@@ -43,5 +43,6 @@ export class Resume {
         this.social = new Social();
         this.freeDescription = new FreeDescription();
         this.contact = new Contact();
+        this.skills = new Skills();
     }
 }
