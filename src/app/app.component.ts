@@ -14,12 +14,15 @@ import { Resume } from './models/resume.model';
 export class AppComponent implements OnInit {
 
   // Resume fetched data that will be shared along all application
-  private resumeData: Resume = new Resume();
+  // private resumeData: Resume = new Resume(true);
+  private resumeData: Resume;
 
   constructor(
     // Dependency Injection of ResumeService
     private resumeService: ResumeService
-  ) { }
+  ) {
+    //
+  }
 
   ngOnInit() {
     // Get resume data from json file
