@@ -4,31 +4,31 @@
       <div class="profile">
         <div class="row">
           <div class="col-xs-5">
-            <div class="profile-photo"><img src="assets/img/uploads/rs-photo-v1.jpg" alt="{{ generalData.name }}" /></div>
+            <div class="profile-photo"><img src="assets/img/uploads/rs-photo-v1.jpg" [alt]="generalData?.name" /></div>
           </div>
           <div class="col-xs-7">
             <div class="profile-info">
               <div class="profile-preword"><span>Olá</span></div>
-              <h1 class="profile-title"><span>Sou</span> {{ generalData.name }}</h1>
+              <h1 class="profile-title"><span>Sou</span> {{ generalData?.name }}</h1>
 
-              <h2 class="profile-position">{{ generalData.ocupation }}</h2>
+              <h2 class="profile-position">{{ generalData?.ocupation }}</h2>
             </div>
             <ul class="profile-list">
               <li class="clearfix">
                 <strong class="title">Idade</strong>
-                <span class="cont">{{ aboutData.age }}</span>
+                <span class="cont">{{ aboutData?.age }}</span>
               </li>
               <li class="clearfix">
                 <strong class="title">Endereço</strong>
-                <span class="cont">{{ aboutData.address }}</span>
+                <span class="cont">{{ aboutData?.address }}</span>
               </li>
               <li class="clearfix">
                 <strong class="title">E-mail</strong>
-                <span class="cont"><a href="mailto:{{ aboutData.email }}">{{ aboutData.email }}</a></span>
+                <span class="cont"><a [href]="'mailto:' + aboutData?.email">{{ aboutData?.email }}</a></span>
               </li>
               <li class="clearfix">
                 <strong class="title">Celular</strong>
-                <span class="cont"><a href="tel:{{ aboutData.phone }}">{{ aboutData.phone }}</a></span>
+                <span class="cont"><a [href]="'tel:' + aboutData?.phone">{{ aboutData?.phone }}</a></span>
               </li>
               <li class="clearfix">
                 <strong class="title">Em Freelance</strong>
@@ -44,28 +44,26 @@
       </div>
       <div class="profile-social">
         <ul class="social">
-          <li><a class="ripple-centered" href="https://www.facebook.com" target="_blank"><i
+          <li *ngIf="socialData?.facebook"><a class="ripple-centered" [href]="socialData?.facebook" target="_blank"><i
                                   class="rsicon rsicon-facebook"></i></a></li>
-          <li><a class="ripple-centered" href="https://twitter.com" target="_blank"><i
+          <li *ngIf="socialData?.twitter"><a class="ripple-centered" [href]="socialData?.twitter" target="_blank"><i
                                   class="rsicon rsicon-twitter"></i></a></li>
-          <li><a class="ripple-centered" href="https://www.linkedin.com" target="_blank"><i
+          <li *ngIf="socialData?.linkedin"><a class="ripple-centered" [href]="socialData?.linkedin" target="_blank"><i
                                   class="rsicon rsicon-linkedin"></i></a></li>
-          <li><a class="ripple-centered" href="https://plus.google.com" target="_blank"><i
+          <li *ngIf="socialData?.google_plus"><a class="ripple-centered" [href]="socialData?.google_plus" target="_blank"><i
                                   class="rsicon rsicon-google-plus"></i></a></li>
-          <li><a class="ripple-centered" href="https://dribbble.com" target="_blank"><i
+          <li *ngIf="socialData?.dribble"><a class="ripple-centered" [href]="socialData?.dribble" target="_blank"><i
                                   class="rsicon rsicon-dribbble"></i></a></li>
-          <li><a class="ripple-centered" href="https://www.instagram.com" target="_blank"><i
+          <li *ngIf="socialData?.instagram"><a class="ripple-centered" [href]="socialData?.instagram" target="_blank"><i
                                   class="rsicon rsicon-instagram"></i></a></li>
         </ul>
       </div>
     </div>
 
     <div class="section-txt-btn">
-      <p><a class="btn btn-lg btn-border ripple" target="_blank" href="http://dev.novembit.com/rs_card/wp-content/uploads/2015/11/test-1.pdf">Download Resume</a></p>
+      <p><a class="btn btn-lg btn-border ripple" target="_blank" [href]="freeDescription?.buttonUrl">{{ freeDescription?.buttonText }}</a></p>
 
-      <p>Hello! I'm Robert Smith. Senior Web Developer specializing in front end development. Experienced with all stages of
-        the development cycle for dynamic web projects. Well-versed in numerous programming languages including JavaScript,
-        SQL, and C. Stng background in project management and customer relations.</p>
+      <p>{{ freeDescription?.text }}</p>
     </div>
   </div>
 </section>

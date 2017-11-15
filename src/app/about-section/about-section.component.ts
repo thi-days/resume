@@ -12,16 +12,16 @@ import { FreeDescription } from '../models/free-description.model';
 export class AboutSectionComponent {
 
   @Input()
-  private generalData: General = new General();
+  private generalData: General;
 
   @Input()
-  private aboutData: About = new About();
+  private aboutData: About;
 
   @Input()
-  private socialData: Social = new Social();
+  private socialData: Social;
 
   @Input()
-  private freeDescription: FreeDescription = new FreeDescription();
+  private freeDescription: FreeDescription;
 
   constructor() { }
 
