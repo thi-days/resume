@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Skills } from '../models/skills.model';
 
 @Component({
   selector: 'app-skills-section',
@@ -8,6 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class SkillsSectionComponent implements OnInit {
 
   constructor() { }
+
+  @Input()
+  private skillsData: Skills;
 
   ngOnInit() {
   }

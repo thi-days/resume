@@ -34,31 +34,36 @@
     "text": "Este é um texto livre"
   },
 
-  "skills": [{
-      "name": "Wordpress",
-      "percent": 80
-    },
-    {
-      "name": "JavaScript",
-      "percent": 52
-    },
-    {
-      "name": "Drupal",
-      "percent": 61
-    },
-    {
-      "name": "HTML & CSS",
-      "percent": 89
-    },
-    {
-      "name": "PHP & MySQL",
-      "percent": 99
-    },
-    {
-      "name": "Photoshop",
-      "percent": 97
-    }
-  ],
+  "skills": {
+    "title": "Habilidades Profissionais",
+    "skills": [{
+        "name": "Wordpress",
+        "percent": 80
+      },
+      {
+        "name": "JavaScript",
+        "percent": 52
+      },
+      {
+        "name": "Drupal",
+        "percent": 61
+      },
+      {
+        "name": "HTML & CSS",
+        "percent": 89
+      },
+      {
+        "name": "PHP & MySQL",
+        "percent": 99
+      },
+      {
+        "name": "Photoshop",
+        "percent": 97
+      }
+    ]
+  }
+
+  ,
 
   "portfolio": [{
       "name": "Street Photography",
