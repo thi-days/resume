@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { References } from '../models/references.model';
 
 @Component({
   selector: 'app-references-section',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./references-section.component.css']
 })
 export class ReferencesSectionComponent implements OnInit {
+
+  @Input()
+  referencesData: References;
 
   constructor() { }
 

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Education } from '../models/education.model';
 
 @Component({
   selector: 'app-education-section',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./education-section.component.css']
 })
 export class EducationSectionComponent implements OnInit {
+
+  @Input()
+  private educationData: Education;
 
   constructor() { }
 

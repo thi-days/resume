@@ -7,7 +7,7 @@
 
   "general": {
     "name": "Thiago Dias",
-    "ocupation": "Desenvolvedor Fullstack"
+    "ocupation": "Desenvolvedor Front-End"
   },
 
   "about": {
@@ -15,8 +15,8 @@
     "address": "Avenida Paulista, 1234",
     "email": "thiagodbrt@gmail.com",
     "phone": "+55 11 9 9108-0203",
-    "freelance": "",
-    "vacation": ""
+    "freelance": "2017-12-25T00:00:00.000Z",
+    "vacation": "2018-02-01T00:00:00.000Z"
   },
 
   "social": {
@@ -31,7 +31,7 @@
   "freeDescription": {
     "buttonUrl": "",
     "buttonText": "Baixar Currículo",
-    "text": "Este é um texto livre"
+    "text": "Estudante de Ciência da Computação, sempre fui apaixonado por tecnologia e computadores. Trabalho desde os 15 anos com desenvolvimento de software. Comecei com desenvolvimento na linguagem Delphi e .NET e atualmente estou focado em me especializar na área de Web e Mobile com ferramentas Angular, Node.js, MongoDB, Bootstrap e Java Spring MVC para Web. Sou um profissional com elevada capacidade de aprendizagem, adoro novos desafios e de trabalhar em equipe."
   },
 
   "skills": {
@@ -61,9 +61,7 @@
         "percent": 97
       }
     ]
-  }
-
-  ,
+  },
 
   "portfolio": [{
       "name": "Street Photography",
@@ -85,45 +83,49 @@
     }
   ],
 
-  "experience": [{
-      "company": "PINEAPPLE",
-      "ocupation": "FULL STACK DEVELOPER",
-      "period": "2014 - 2016",
-      "description": ""
-    },
-    {
-      "company": "MACROSOOFT",
-      "ocupation": "WEB DEVELOPER",
-      "period": "2011 - 2014",
-      "description": ""
-    },
-    {
-      "company": "JOOJLE",
-      "ocupation": "SYSTEMS ANALYST / WEB DEVELOPER",
-      "period": "2003 - 2006",
-      "description": ""
-    },
-    {
-      "company": "IBBBM",
-      "ocupation": "WEBMASTER / WEB DEVELOPER",
-      "period": "2004 - 2008",
-      "description": ""
-    },
-    {
-      "company": "HEADBOOK",
-      "ocupation": "INTERN",
-      "period": "2003 - 2004",
-      "description": ""
-    },
-    {
-      "company": "UBEAR",
-      "ocupation": "TAXI DRIVER",
-      "period": "2000 - 2003",
-      "description": ""
-    }
-  ],
+  "experience": {
+    "title": "Experiência Profissional",
+    "experiences": [{
+        "company": "PINEAPPLE",
+        "ocupation": "FULL STACK DEVELOPER",
+        "period": "2014 - 2016",
+        "description": ""
+      },
+      {
+        "company": "MACROSOOFT",
+        "ocupation": "WEB DEVELOPER",
+        "period": "2011 - 2014",
+        "description": ""
+      },
+      {
+        "company": "JOOJLE",
+        "ocupation": "SYSTEMS ANALYST / WEB DEVELOPER",
+        "period": "2003 - 2006",
+        "description": ""
+      },
+      {
+        "company": "IBBBM",
+        "ocupation": "WEBMASTER / WEB DEVELOPER",
+        "period": "2004 - 2008",
+        "description": ""
+      },
+      {
+        "company": "HEADBOOK",
+        "ocupation": "INTERN",
+        "period": "2003 - 2004",
+        "description": ""
+      },
+      {
+        "company": "UBEAR",
+        "ocupation": "TAXI DRIVER",
+        "period": "2000 - 2003",
+        "description": ""
+      }
+    ]
+  },
 
   "education": {
+    "title": "Educação",
     "courses": [{
         "course": "Master of Information Technology",
         "institute": "MIT&T",
@@ -178,25 +180,28 @@
     ]
   },
 
-  "references": [{
-      "name": "Alexander Jokovich",
-      "avatar": "",
-      "company": "",
-      "reference": ""
-    },
-    {
-      "name": "James Bond",
-      "avatar": "",
-      "company": "",
-      "reference": ""
-    },
-    {
-      "name": "William Shakespeare",
-      "avatar": "",
-      "company": "",
-      "reference": ""
-    }
-  ],
+  "references": {
+    "title": "Referências",
+    "references": [{
+        "name": "Alexander Jokovich",
+        "avatar": "",
+        "company": "",
+        "reference": ""
+      },
+      {
+        "name": "James Bond",
+        "avatar": "",
+        "company": "",
+        "reference": ""
+      },
+      {
+        "name": "William Shakespeare",
+        "avatar": "",
+        "company": "",
+        "reference": ""
+      }
+    ]
+  },
 
   "pricing": {
 

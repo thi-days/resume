@@ -46,19 +46,29 @@
         ></app-skills-section>
         <!-- #skills -->
 
-        <app-portfolio-section></app-portfolio-section>
+        <app-portfolio-section
+          [portfolioData]="resumeData?.portfolio"
+        ></app-portfolio-section>
         <!-- #portfolio -->
 
-        <app-experience-section></app-experience-section>
+        <app-experience-section
+          [workExpData]="resumeData?.experience"
+        ></app-experience-section>
         <!-- #experience -->
 
-        <app-education-section></app-education-section>
+        <app-education-section
+          [educationData]="resumeData?.education"
+        ></app-education-section>
         <!-- #education -->
 
-        <app-clients-section></app-clients-section>
+        <app-clients-section
+          [clientsData]="resumeData?.logos"
+        ></app-clients-section>
         <!-- #clients -->
 
-        <app-references-section></app-references-section>
+        <app-references-section
+          [referencesData]="resumeData?.references"
+        ></app-references-section>
         <!-- #references -->
 
         <app-prices-section></app-prices-section>

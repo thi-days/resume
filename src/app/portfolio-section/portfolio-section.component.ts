@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Portfolio } from '../models/portfolio.model';
 
 @Component({
   selector: 'app-portfolio-section',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio-section.component.css']
 })
 export class PortfolioSectionComponent implements OnInit {
+
+  @Input()
+  private portfolioData: Portfolio;
 
   constructor() { }
 

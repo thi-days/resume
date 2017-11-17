@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { WorkExperiences } from '../models/work-experiences.model';
 
 @Component({
   selector: 'app-experience-section',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experience-section.component.css']
 })
 export class ExperienceSectionComponent implements OnInit {
+
+  @Input()
+  private workExpData: WorkExperiences;
 
   constructor() { }
 

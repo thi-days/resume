@@ -14,29 +14,29 @@
               <h2 class="profile-position">{{ generalData?.ocupation }}</h2>
             </div>
             <ul class="profile-list">
-              <li class="clearfix">
+              <li class="clearfix" *ngIf="aboutData?.age">
                 <strong class="title">Idade</strong>
                 <span class="cont">{{ aboutData?.age }}</span>
               </li>
-              <li class="clearfix">
+              <li class="clearfix" *ngIf="aboutData?.address">
                 <strong class="title">Endereço</strong>
                 <span class="cont">{{ aboutData?.address }}</span>
               </li>
-              <li class="clearfix">
+              <li class="clearfix" *ngIf="aboutData?.email">
                 <strong class="title">E-mail</strong>
                 <span class="cont"><a [href]="'mailto:' + aboutData?.email">{{ aboutData?.email }}</a></span>
               </li>
-              <li class="clearfix">
+              <li class="clearfix" *ngIf="aboutData?.phone">
                 <strong class="title">Celular</strong>
                 <span class="cont"><a [href]="'tel:' + aboutData?.phone">{{ aboutData?.phone }}</a></span>
               </li>
-              <li class="clearfix">
+              <li class="clearfix" *ngIf="aboutData?.freelance">
                 <strong class="title">Em Freelance</strong>
-                <span class="cont">até April 15, 2016</span>
+                <span class="cont">até {{ aboutData?.freelance | date }}</span>
               </li>
-              <li class="clearfix">
+              <li class="clearfix" *ngIf="aboutData?.vacation">
                 <strong class="title"><span class="button">Férias</span></strong>
-                <span class="cont"><i class="rsicon rsicon-calendar"></i>até March 25, 2016</span>
+                <span class="cont"><i class="rsicon rsicon-calendar"></i>até {{ aboutData?.vacation | date }}</span>
               </li>
             </ul>
           </div>

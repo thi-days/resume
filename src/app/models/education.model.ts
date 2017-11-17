@@ -1,5 +1,6 @@
-export class Course {
-    public course: string;
-    public institute: string;
-    public period: string;
+import { Titleable } from './titleable.model';
+import { Course } from './course.model';
+
+export class Education extends Titleable {
+    education: Course[];
 }

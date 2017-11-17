@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Logo } from '../models/logos.model';
 
 @Component({
   selector: 'app-clients-section',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./clients-section.component.css']
 })
 export class ClientsSectionComponent implements OnInit {
+
+  @Input()
+  private clientsData: Logo[];
 
   constructor() { }
 
