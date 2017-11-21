@@ -92,13 +92,17 @@
         </section>
         <!-- #text-section -->
 
-        <app-interests-section></app-interests-section>
+        <app-interests-section
+          [interestsData]="resumeData?.interests"
+        ></app-interests-section>
         <!-- #interests -->
 
         <app-calendar-section></app-calendar-section>
         <!-- #calendar -->
 
-        <app-contact-section></app-contact-section>
+        <app-contact-section
+          [contactData]="resumeData?.contact"
+        ></app-contact-section>
         <!-- #contact -->
 
         <!-- END: PAGE CONTENT -->
