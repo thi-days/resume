@@ -1,4 +1,6 @@
-export class Contact {
+import { Titleable } from './titleable.model';
+
+export class Contact extends Titleable {
     public address: string;
     public phone: string;
     public email: string;
