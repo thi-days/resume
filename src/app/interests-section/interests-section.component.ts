@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Interests } from '../models/interests.model';
 
 @Component({
   selector: 'app-interests-section',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./interests-section.component.css']
 })
 export class InterestsSectionComponent implements OnInit {
+
+  @Input()
+  private interestsData: Interests;
 
   constructor() { }
 
