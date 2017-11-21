@@ -184,20 +184,20 @@
     "title": "Referências",
     "references": [{
         "name": "Alexander Jokovich",
-        "avatar": "",
-        "company": "",
-        "reference": ""
+        "avatar": "assets/img/uploads/rs-avatar-60x60.jpg",
+        "company": "PINEAPPLE",
+        "reference": "I confirm that I have dealt with New Company Ltd since 1998. Their work has been a major factor in our website's success, helping it to become one of the most visited resources of its kind on the Internet."
       },
       {
         "name": "James Bond",
-        "avatar": "",
-        "company": "",
+        "avatar": "assets/img/uploads/rs-avatar-60x60.jpg",
+        "company": "PINEAPPLE 2",
         "reference": ""
       },
       {
         "name": "William Shakespeare",
-        "avatar": "",
-        "company": "",
+        "avatar": "assets/img/uploads/rs-avatar-60x60.jpg",
+        "company": "PINEAPPLE 3",
         "reference": ""
       }
     ]

@@ -2,5 +2,5 @@ import { Titleable } from './titleable.model';
 import { Course } from './course.model';
 
 export class Education extends Titleable {
-    education: Course[];
+    courses: Course[];
 }
