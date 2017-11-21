@@ -4,7 +4,7 @@ import { Social } from './social.model';
 import { FreeDescription } from './free-description.model';
 import { Portfolio } from './portfolio.model';
 import { WorkExperience } from './work-experience.model';
-import { Course } from './education.model';
+import { Education } from './education.model';
 import { Logo } from './logos.model';
 import { Reference } from './reference.model';
 import { Interest } from './interest.model';
@@ -22,7 +22,7 @@ export class Resume {
     public skills: Skills;
     public portfolios: Portfolio[];
     public experiences: WorkExperience[];
-    public education: Course[];
+    public education: Education[];
     public logos: Logo[];
     public references: Reference[];
     // pricing: Pricing[]; ???
