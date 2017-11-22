@@ -32,12 +32,12 @@
       <div class="container">
 
         <!-- START: PAGE CONTENT -->
-
         <app-about-section
           [generalData]="resumeData?.general"
           [aboutData]="resumeData?.about"
           [socialData]="resumeData?.social"
           [freeDescription]="resumeData?.freeDescription"
+          [profilePicture]="resumeData?.profilePicture"
         ></app-about-section>
         <!-- #about -->
 
@@ -46,10 +46,10 @@
         ></app-skills-section>
         <!-- #skills -->
 
-        <app-portfolio-section
+        <!-- <app-portfolio-section
           [portfolioData]="resumeData?.portfolio"
-        ></app-portfolio-section>
-        <!-- #portfolio -->
+        ></app-portfolio-section> -->
+        <!-- #portfolio: I WON'T USE IT NOW -->
 
         <app-experience-section
           [workExpData]="resumeData?.experience"

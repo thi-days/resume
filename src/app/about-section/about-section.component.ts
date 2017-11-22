@@ -3,6 +3,7 @@ import { About } from '../models/about.model';
 import { General } from '../models/general.model';
 import { Social } from '../models/social.model';
 import { FreeDescription } from '../models/free-description.model';
+import { ProfilePicture } from '../models/profile-picture.model';
 
 @Component({
   selector: 'app-about-section',
@@ -22,6 +23,9 @@ export class AboutSectionComponent {
 
   @Input()
   private freeDescription: FreeDescription;
+
+  @Input()
+  private profilePicture: ProfilePicture;
 
   constructor() { }
 

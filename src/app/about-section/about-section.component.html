@@ -4,7 +4,7 @@
       <div class="profile">
         <div class="row">
           <div class="col-xs-5">
-            <div class="profile-photo"><img src="assets/img/uploads/rs-photo-v1.jpg" [alt]="generalData?.name" /></div>
+            <div class="profile-photo"><img [src]="profilePicture?.imgPath" [alt]="generalData?.name" /></div>
           </div>
           <div class="col-xs-7">
             <div class="profile-info">
@@ -63,7 +63,7 @@
     <div class="section-txt-btn">
       <p><a class="btn btn-lg btn-border ripple" target="_blank" [href]="freeDescription?.buttonUrl">{{ freeDescription?.buttonText }}</a></p>
 
-      <p>{{ freeDescription?.text }}</p>
+      <p [innerHTML]="freeDescription?.text"></p>
     </div>
   </div>
 </section>
