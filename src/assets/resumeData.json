@@ -1,7 +1,7 @@
 {
   "profilePicture": {
     "alt": "",
-    "imgPath": "",
+    "imgPath": "assets/img/uploads/rs-photo-v1.jpg",
     "url": ""
   },
 
@@ -12,11 +12,9 @@
 
   "about": {
     "age": 23,
-    "address": "Avenida Paulista, 1234",
     "email": "thiagodbrt@gmail.com",
     "phone": "+55 11 9 9108-0203",
-    "freelance": "2017-12-25T00:00:00.000Z",
-    "vacation": "2018-02-01T00:00:00.000Z"
+    "freelance": "2017-12-25T00:00:00.000Z"
   },
 
   "social": {
@@ -29,36 +27,52 @@
   },
 
   "freeDescription": {
-    "buttonUrl": "",
+    "buttonUrl": "https://github.com/thi-days/resume",
     "buttonText": "Ver código-fonte no Github",
-    "text": "Estudante de Ciência da Computação, sempre fui apaixonado por tecnologia e computadores. Trabalho desde os 15 anos com desenvolvimento de software. Comecei com desenvolvimento na linguagem Delphi e .NET e atualmente estou focado em me especializar na área de Web e Mobile com ferramentas Angular, Node.js, MongoDB, Bootstrap e Java Spring MVC para Web. Sou um profissional com elevada capacidade de aprendizagem, adoro novos desafios e de trabalhar em equipe."
+    "text": "Estudante de Ciência da Computação, sempre fui apaixonado por tecnologia e computadores. Trabalho desde os 15 anos com desenvolvimento de software. Comecei com desenvolvimento na linguagem Delphi e .NET e atualmente estou focado em me especializar na área de Web e Mobile com ferramentas Angular, Node.js, MongoDB, Bootstrap e Firebase. Sou um profissional com elevada capacidade de aprendizagem, adoro novos desafios e de trabalhar em equipe."
   },
 
   "skills": {
     "title": "Habilidades Profissionais",
     "skills": [{
-        "name": "Wordpress",
+        "name": "Angular 5",
+        "percent": 75
+      },
+      {
+        "name": "Node.js | Express.js",
+        "percent": 50
+      },
+      {
+        "name": "Firebase (Real-time Database)",
+        "percent": 50
+      },
+      {
+        "name": "MongoDB",
+        "percent": 50
+      },
+      {
+        "name": "Javascript | Typescript",
         "percent": 80
       },
       {
-        "name": "JavaScript",
-        "percent": 52
+        "name": "HTML5 | CSS3 | Bootstrap 4",
+        "percent": 60
       },
       {
-        "name": "Drupal",
-        "percent": 61
+        "name": "Git | SVN",
+        "percent": 80
       },
       {
-        "name": "HTML & CSS",
-        "percent": 89
+        "name": "Scrum",
+        "percent": 80
       },
       {
-        "name": "PHP & MySQL",
-        "percent": 99
+        "name": "MySQL | SQL Server | SQLite",
+        "percent": 65
       },
       {
-        "name": "Photoshop",
-        "percent": 97
+        "name": "C# .NET",
+        "percent": 50
       }
     ]
   },
@@ -86,99 +100,128 @@
   "experience": {
     "title": "Experiência Profissional",
     "experiences": [{
-        "company": "PINEAPPLE",
-        "ocupation": "FULL STACK DEVELOPER",
-        "period": "2014 - 2016",
-        "description": "Worked as part of a multi-disciplinary team, carrying out ad-hoc tasks as requested by the IT Manager. Had a specific brief to ensure the websites build for customer’s precisely matched their requirements.developers and marketers."
+        "company": "TARGET.IT",
+        "ocupation": "Desenvolvedor SAP Hybris Pleno",
+        "period": "Jan/2017 - Set/2017",
+        "description": "A equipe da Quasar Digital fez uma união com a TargetIT Serviços em Tecnologia e então iniciei em um novo desafio: <b>SAP Hybris</b>. Este é um Commerce recente desevolvida pela SAP e fui responsável por participar do levantamento de requisitos com o cliente, desenvolvimento de POCs para apresentações e do desenvolvimento do projeto O-Roge. <br><br>As tecnologias utilizadas no desenvolvimento desse projeto foram <b>Java Spring MVC, Javascript e Boostrap, banco de dados MySQL e outros recursos internos desenvolvidos pela SAP no Hybris.</b>"
       },
       {
-        "company": "MACROSOOFT",
-        "ocupation": "WEB DEVELOPER",
-        "period": "2011 - 2014",
-        "description": "I was responsible for working on a range of projects, designing appealing websites and interacting on a daily basis with graphic designers, back-end developers and marketers."
+        "company": "QUASAR DIGITAL",
+        "ocupation": "Desenvolvedor Web (Fullstack)",
+        "period": "Set/2016 - Jan/2017",
+        "description": "Fui desafiado a participar do projeto Leiloar.NET onde desenvolvemos um sistema de leilão online. Durante o projeto, fiz diversas visitas ao cliente e levantei os requisitos necessários para o desenvolvimento do sistema. <br><br>As tecnologias utilizadas foram <b>Bootstrap, Angular.js 1.x, Node.js, Express.js e MongoDB – também conhecido com MEAN Stack.</b>"
       },
       {
-        "company": "JOOJLE",
-        "ocupation": "SYSTEMS ANALYST / WEB DEVELOPER",
-        "period": "2003 - 2006",
-        "description": "Rebuilt and enhanced existing ASP B2C site with ASP.NET 2.0 Framework and tools. Technology consists of ASP.NET 2.0 (C#), IIS, Microsoft SQL Server 2005, Stored Procedures & PayPal Instant Payment Notification."
+        "company": "ADAMOS TECNOLOGIA",
+        "ocupation": "Programador Júnior",
+        "period": "Set/2013 - Set/2016",
+        "description": "Em 2013 fui responsável pelo desenvolvimento do sistema corporativo de cloud backup utilizando <b>Web services, linguagem de programação Delphi e bancos de dados MySQL e SQLite</b>. <br><br>Em 2015 participei do <b>desenvolvimento de um software de acesso remoto</b> com controle de cobrança integrado também utilizando Delphi, MySQL e SQLite. <br><br>Em 2016 participei do projeto de <b>atualização do sistema gerenciador de licenças</b> da empresa."
       },
       {
-        "company": "IBBBM",
-        "ocupation": "WEBMASTER / WEB DEVELOPER",
-        "period": "2004 - 2008",
-        "description": "Developed, managed, operated and promoted an Internet business.Handled customer support issues.Planned and managed business finances."
+        "company": "ACE SEGURADORA S.A",
+        "ocupation": "Analista de Operações Jr",
+        "period": "Jun/2012 - Jun/2013",
+        "description": "Fui responsável pelos processos internos de cobrança da seguradora automatizando os processos com desenvolvimento C#. <br><br>- Fiz a automatização dos processos com desenvolvimento C#.NET. <br>- Administração de base: Adesão, endosso, cancelamentos, reativação e restituição. <br>- Faturamento, cobrança (débito automático layout FEBRABAN e CNAB400) e cobrança via cartão de crédito TEF dedicado - SiTef). <br>- Geração de relatório - Microsoft Reporting Services. <br><br>As tecnologias utlizadas foram <b>C#.NET, .NET Framework, ADO.NET e Entity Framework, SQL Server 2008 e Windows Forms"
       },
       {
-        "company": "HEADBOOK",
-        "ocupation": "INTERN",
-        "period": "2003 - 2004",
-        "description": "This was beginning of my career. Developed, managed, operated and promoted an Internet business.Handled customer support issues."
-      },
-      {
-        "company": "UBEAR",
-        "ocupation": "TAXI DRIVER",
-        "period": "2000 - 2003",
-        "description": "Driving from point A to point B and if necessary to point C and sometimes even to point R and point S. I was known as experienced driver. Once my passenger who was a web developer told me about his job and I have made my decision at that moment to became a developer."
+        "company": "Zeeo Technology",
+        "ocupation": "Programador Júnior",
+        "period": "Ago/2008 - Mai/2012",
+        "description": "Início da carreira de desenvolvimento. Aqui aprendi os principais fundamentos de POO e Banco de Dados. Adquiri experiência com Delphi e Firebird SQL. Participei do desenvolvimento da aplicação de ERP da empresa. <br><br>As tecnologias utilizadas foram <b>Delphi, Firebird, InterBase e RaveReports</b>."
       }
     ]
   },
 
   "education": {
-    "title": "Educação",
+    "title": "Formação e Especialização",
     "courses": [{
-        "course": "Master of Information Technology",
-        "institute": "MIT&T",
-        "period": "2012 - 2014"
+        "course": "Bacharelado em Ciências da Computação",
+        "institute": "Universidade Paulista",
+        "period": "2014 - 2018"
       },
       {
-        "course": "Bachelor Computer Engineering",
-        "institute": "HARWARG UNIVERSITEY",
-        "period": "2008 - 2012"
+        "course": "Curso de Desenvolvimento WEB com ES6, TypeScript e Angular 4",
+        "institute": "Udemy",
+        "period": "2017"
       },
       {
-        "course": "Certificate for courses of Computer Science",
-        "institute": "STANFOORB UNIVERSITEY",
-        "period": "2007 - 2008"
+        "course": "Magical Marvels of MongoDB",
+        "institute": "Code School",
+        "period": "2016"
       },
       {
-        "course": "1 week Courses of Information Systems",
-        "institute": "OXFORZ UNIVERSITEY",
-        "period": "2007 - 2008"
+        "course": "Building Blocks of Express.js",
+        "institute": "Code School",
+        "period": "2016"
       },
       {
-        "course": "Software Engineering",
-        "institute": "SORDONNE UNIVERSITY",
-        "period": "2006 - 2007"
-      }
-    ],
-
-    "logos": [{
-        "description": "Angular",
-        "url": ""
+        "course": "Real-time Web with Node.js",
+        "institute": "Code School",
+        "period": "2016"
       },
       {
-        "description": "Wordpress",
-        "url": ""
+        "course": "Staying Sharp with Angular.js",
+        "institute": "Code School",
+        "period": "2016"
       },
       {
-        "description": "Evernote",
-        "url": ""
+        "course": "Shaping up with Angular.js",
+        "institute": "Code School",
+        "period": "2016"
       },
       {
-        "description": "Compass",
-        "url": ""
-      },
-      {
-        "description": "Teaspoon",
-        "url": ""
-      },
-      {
-        "description": "Bootstrap",
-        "url": ""
+        "course": "Ensino Médio",
+        "institute": "ETEC Júlio de Mesquita",
+        "period": "2009 - 2011"
       }
     ]
   },
+
+  "logos": [{
+      "description": "Angular",
+      "imgPath": "assets/img/uploads/logos/logo-angular.png"
+    },
+    {
+      "description": "Node.js",
+      "imgPath": "assets/img/uploads/logos/logo-nodejs.png"
+    },
+    {
+      "description": "Firebase",
+      "imgPath": "assets/img/uploads/logos/logo-firebase.png"
+    },
+    {
+      "description": "MongoDB",
+      "imgPath": "assets/img/uploads/logos/logo-mongodb.png"
+    },
+    {
+      "description": "Bootstrap 4",
+      "imgPath": "assets/img/uploads/logos/logo-bootstrap.png"
+    },
+    {
+      "description": "jQuery",
+      "imgPath": "assets/img/uploads/logos/logo-jquery.png"
+    },
+    {
+      "description": "Jasmine",
+      "imgPath": "assets/img/uploads/logos/logo-jasmine.png"
+    },
+    {
+      "description": "Typescript",
+      "imgPath": "assets/img/uploads/logos/logo-typescript.png"
+    },
+    {
+      "description": "Git",
+      "imgPath": "assets/img/uploads/logos/logo-git.png"
+    },
+    {
+      "description": "WordPress",
+      "imgPath": "assets/img/uploads/logos/logo-wordpress.png"
+    },
+    {
+      "description": "WooCommerce",
+      "imgPath": "assets/img/uploads/logos/logo-woocommerce.png"
+    }
+  ],
 
   "references": {
     "title": "Referências",
@@ -208,34 +251,42 @@
   },
 
   "interests": {
-    "description": "I have a keen interest in photography. I was vice-president of the photography club during my time at university, and during this period I organised a number of very successful exhibitions and events both on and off campus. <br/>I also play the piano to grade 8 standard.",
+    "description": "Eu tenho um enorme interesse em música e produção musical. Sou tecladista na igreja que frequento e nas horas livres gosto de gravar minhas versões tocadas das músicas que conheço. Quando não estou fazendo isso, certamente estou assistindo filmes.",
     "interests": [{
-        "name": "Bicycling",
-        "icon": "bicycling"
+        "name": "Hamburguerias",
+        "icon": "food"
       },
       {
-        "name": "Watch Movies",
-        "icon": ""
+        "name": "Cinema",
+        "icon": "movie-theater"
       },
       {
-        "name": "Skating",
-        "icon": ""
+        "name": "Leitura",
+        "icon": "book-store"
+      },
+      {
+        "name": "Natação",
+        "icon": "swimming"
       },
       {
         "name": "Shopping",
-        "icon": ""
+        "icon": "department-store"
       },
       {
-        "name": "Playing Tennis",
-        "icon": ""
+        "name": "Igreja",
+        "icon": "church"
       },
       {
-        "name": "Playing Bowling",
-        "icon": ""
+        "name": "Animais",
+        "icon": "pet-store"
       },
       {
-        "name": "Swimming",
-        "icon": ""
+        "name": "Estudos",
+        "icon": "university"
+      },
+      {
+        "name": "Investimentos",
+        "icon": "bank"
       }
     ]
   },
