@@ -23,7 +23,7 @@
             <h3>{{ workExp.company }}</h3>
             <h4>{{ workExp.ocupation }}</h4>
 
-            <p *ngIf="workExp.description">{{ workExp.description }}</p>
+            <p *ngIf="workExp.description" [innerHTML]="workExp.description"></p>
           </div>
         </div>
 
