@@ -30,7 +30,7 @@
 
   "freeDescription": {
     "buttonUrl": "",
-    "buttonText": "Baixar Currículo",
+    "buttonText": "Ver código-fonte no Github",
     "text": "Estudante de Ciência da Computação, sempre fui apaixonado por tecnologia e computadores. Trabalho desde os 15 anos com desenvolvimento de software. Comecei com desenvolvimento na linguagem Delphi e .NET e atualmente estou focado em me especializar na área de Web e Mobile com ferramentas Angular, Node.js, MongoDB, Bootstrap e Java Spring MVC para Web. Sou um profissional com elevada capacidade de aprendizagem, adoro novos desafios e de trabalhar em equipe."
   },
 
@@ -207,11 +207,11 @@
 
   },
 
-  "interest": {
-    "description": "",
+  "interests": {
+    "description": "I have a keen interest in photography. I was vice-president of the photography club during my time at university, and during this period I organised a number of very successful exhibitions and events both on and off campus. <br/>I also play the piano to grade 8 standard.",
     "interests": [{
         "name": "Bicycling",
-        "icon": ""
+        "icon": "bicycling"
       },
       {
         "name": "Watch Movies",
@@ -245,10 +245,11 @@
   },
 
   "contact": {
-    "address": "",
-    "phone": "",
-    "email": "",
-    "skype": "",
+    "title": "Contato",
+    "address": "Rua Baltazar Barbosa, 181",
+    "phone": "11 9 9108-0203",
+    "email": "thiagodbrt@gmail.com",
+    "skype": "thi.itech",
     "maps": {
       "latitude": "",
       "longitude": "",

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Contact } from '../models/contact.model';
+import { About } from '../models/about.model';
 
 @Component({
   selector: 'app-contact-section',
@@ -12,6 +13,9 @@ export class ContactSectionComponent implements OnInit {
 
   @Input()
   contactData: Contact;
+
+  @Input()
+  aboutData: About;
 
   ngOnInit() {
   }

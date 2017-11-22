@@ -20,7 +20,7 @@
   <app-mobile-nav></app-mobile-nav>
   <!-- .mobile-nav -->
 
-  <app-sidebar></app-sidebar>
+  <!-- <app-sidebar></app-sidebar> -->
   <!-- .sidebar -->
 
   <div class="wrapper">
@@ -77,7 +77,7 @@
         <!-- <app-blog-section></app-blog-section> -->
         <!-- #blog -->
 
-        <section id="text-section" class="section section-text">
+        <!-- <section id="text-section" class="section section-text">
           <div class="animate-up animated">
             <h2 class="section-title">Text Section</h2>
 
@@ -89,19 +89,20 @@
                 images and photos right in this editor!</p>
             </div>
           </div>
-        </section>
-        <!-- #text-section -->
+        </section> -->
+        <!-- #text-section: I WON'T USE IT NOW -->
 
         <app-interests-section
           [interestsData]="resumeData?.interests"
         ></app-interests-section>
         <!-- #interests -->
 
-        <app-calendar-section></app-calendar-section>
+        <!-- <app-calendar-section></app-calendar-section> -->
         <!-- #calendar -->
 
         <app-contact-section
           [contactData]="resumeData?.contact"
+          [aboutData]="resumeData?.about"
         ></app-contact-section>
         <!-- #contact -->
 
@@ -112,7 +113,9 @@
     </div>
     <!-- .content -->
 
-    <app-footer></app-footer>
+    <app-footer
+      [socialData]="resumeData?.social"
+    ></app-footer>
     <!-- .footer -->
 
   </div>

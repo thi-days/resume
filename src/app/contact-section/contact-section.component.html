@@ -1,15 +1,15 @@
 <section id="contact" class="section section-contact">
   <div class="animate-up">
-    <h2 class="section-title">Contact Me</h2>
+    <h2 class="section-title">{{ contactData?.title }}</h2>
 
     <div class="row">
       <div class="col-sm-6">
         <div class="section-box contact-form">
-          <h3>Feel free to contact me</h3>
+          <h3>Entre em contato</h3>
 
           <form class="rsForm" action="php/mailsender.php" method="post">
             <div class="input-field">
-              <label>Name</label>
+              <label>Nome</label>
               <input type="text" name="rsName" value="">
               <span class="line"></span>
             </div>
@@ -21,19 +21,19 @@
             </div>
 
             <div class="input-field">
-              <label>Subject</label>
+              <label>Assunto</label>
               <input type="text" name="rsSubject" value="">
               <span class="line"></span>
             </div>
 
             <div class="input-field">
-              <label>Message</label>
+              <label>Mensagem</label>
               <textarea rows="4" name="rsMessage"></textarea>
               <span class="line"></span>
             </div>
 
             <span class="btn-outer btn-primary-outer ripple">
-                                  <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Send">
+                                  <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Enviar">
                               </span>
           </form>
         </div>
@@ -43,16 +43,16 @@
         <div class="section-box contact-info has-map">
           <ul class="contact-list">
             <li class="clearfix">
-              <strong>Address</strong>
-              <span>Belgium, Brussels, Liutte 27, BE</span>
+              <strong>Endereço</strong>
+              <span>{{ aboutData?.address }}</span>
             </li>
             <li class="clearfix">
-              <strong>phone</strong>
-              <span><a href="tel:+12562548456">+1 256 254 84 56</a></span>
+              <strong>Celular</strong>
+              <span><a [href]="'tel:' + aboutData?.phone">{{ aboutData?.phone }}</a></span>
             </li>
             <li class="clearfix">
               <strong>E-mail</strong>
-              <span><a href="mailto:robertsmith@company.com">robertsmith@company.com</a></span>
+              <span><a [href]="'mailto:' + aboutData?.email">{{ aboutData?.email }}</a></span>
             </li>
           </ul>
 
