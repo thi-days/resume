@@ -2,7 +2,7 @@
     "sections": [
         { "name": "Sobre", "url": "#about", "enabled": true },
         { "name": "Habilidades", "url": "#skills", "enabled": true },
-        { "name": "Portfolio", "url": "#portfolio", "enabled": true },
+        { "name": "Portfolio", "url": "#portfolio", "enabled": false },
         { "name": "Experiência", "url": "#experience", "enabled": true },
         { "name": "Referências", "url": "#references", "enabled": true },
         { "name": "Contato", "url": "#contact", "enabled": true }
