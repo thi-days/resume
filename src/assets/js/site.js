@@ -564,7 +564,7 @@
      */
     $(function() {
         setWindowScrollAppear();
-		setProgressBarsFill();		
+        setTimeout(setProgressBarsFill, 2000);
 		setContactSectionHeight();
         setPriceBoxesHeight();
 		availabilityCalendar();
