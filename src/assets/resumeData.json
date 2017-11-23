@@ -124,7 +124,7 @@
         "description": "Fui responsável pelos processos internos de cobrança da seguradora automatizando os processos com desenvolvimento C#. <br><br>- Fiz a automatização dos processos com desenvolvimento C#.NET. <br>- Administração de base: Adesão, endosso, cancelamentos, reativação e restituição. <br>- Faturamento, cobrança (débito automático layout FEBRABAN e CNAB400) e cobrança via cartão de crédito TEF dedicado - SiTef). <br>- Geração de relatório - Microsoft Reporting Services. <br><br>As tecnologias utlizadas foram <b>C#.NET, .NET Framework, ADO.NET e Entity Framework, SQL Server 2008 e Windows Forms"
       },
       {
-        "company": "Zeeo Technology",
+        "company": "ZEEO TECHNOLOGY",
         "ocupation": "Programador Júnior",
         "period": "Ago/2008 - Mai/2012",
         "description": "Início da carreira de desenvolvimento. Aqui aprendi os principais fundamentos de POO e Banco de Dados. Adquiri experiência com Delphi e Firebird SQL. Participei do desenvolvimento da aplicação de ERP da empresa. <br><br>As tecnologias utilizadas foram <b>Delphi, Firebird, InterBase e RaveReports</b>."
@@ -137,7 +137,7 @@
     "courses": [{
         "course": "Bacharelado em Ciências da Computação",
         "institute": "Universidade Paulista",
-        "period": "2014 - 2018 (Cursando)"
+        "period": "2014 - 2018 (Quase lá!)"
       },
       {
         "course": "Curso de Desenvolvimento WEB com ES6, TypeScript e Angular 4",
@@ -251,7 +251,7 @@
   },
 
   "interests": {
-    "description": "Eu tenho um enorme interesse em música e produção musical. Sou tecladista na igreja que frequento e nas horas livres gosto de gravar minhas versões tocadas das músicas que conheço. Quando não estou fazendo isso, certamente estou assistindo filmes.",
+    "description": "Eu tenho um enorme interesse em música e produção musical. Sou tecladista na igreja que frequento e nas horas livres gosto de gravar minhas versões tocadas das músicas que conheço. Quando não estou fazendo isso, certamente estou assistindo filmes ou passeando. =)",
     "interests": [{
         "name": "Hamburguerias",
         "icon": "food"
