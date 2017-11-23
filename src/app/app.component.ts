@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ResumeService } from './services/resume-service';
 import { Resume } from './models/resume.model';
+import { ResumeService } from './services/resume-service';
+import { ResumeSections } from './models/resume-sections.model';
 
 /**
  * This component is the controller of the main (home?) page
@@ -14,8 +15,8 @@ import { Resume } from './models/resume.model';
 export class AppComponent implements OnInit {
 
   // Resume fetched data that will be shared along all application
-  // private resumeData: Resume = new Resume(true);
   private resumeData: Resume;
+  private resumeSections: ResumeSections;
 
   constructor(
     // Dependency Injection of ResumeService
@@ -26,9 +27,22 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     // Get resume data from json file
+    this.getResumeData();
+
+    // Getting resume sections from json file
+    this.getResumeSections();
+  }
+
+  private getResumeData(): void {
     this.resumeService.getResumeData().subscribe(data => {
-      console.warn(data);
+      console.log(data);
       this.resumeData = data;
+    });
+  }
+
+  private getResumeSections(): void {
+    this.resumeService.getResumeSections().subscribe(result => {
+      this.resumeSections = result;
     });
   }
 }

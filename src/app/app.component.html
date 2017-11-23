@@ -17,15 +17,23 @@
 
 <body class="home header-has-img loading">
 
-  <app-mobile-nav></app-mobile-nav>
+  <app-mobile-nav
+    [resumeSections]="resumeSections"
+  ></app-mobile-nav>
   <!-- .mobile-nav -->
 
-  <!-- <app-sidebar></app-sidebar> -->
+  <app-sidebar
+    [generalData]="resumeData?.general"
+    [aboutData]="resumeData?.about"
+    [profilePicture]="resumeData?.profilePicture"
+  ></app-sidebar>
   <!-- .sidebar -->
 
   <div class="wrapper">
 
-    <app-menu-header></app-menu-header>
+    <app-menu-header
+      [resumeSections]="resumeSections"
+    ></app-menu-header>
     <!-- .header -->
 
     <div class="content">

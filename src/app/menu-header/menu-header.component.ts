@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { ResumeService } from '../services/resume-service';
-import { ResumeSection } from '../resume/resume-section';
+import { Component, OnInit, Input } from '@angular/core';
+import { ResumeSections } from '../models/resume-sections.model';
 
 @Component({
   selector: 'app-menu-header',
@@ -8,18 +7,13 @@ import { ResumeSection } from '../resume/resume-section';
   styleUrls: ['./menu-header.component.css']
 })
 export class MenuHeaderComponent implements OnInit {
-  /** List of sections that will be used in the page */
-  public resumeSections: ResumeSection[] = [];
 
-  constructor(
-    public resumeService: ResumeService
-  ) { }
+  @Input()
+  private resumeSections: ResumeSections;
+
+  constructor() { }
 
   ngOnInit() {
-    // Getting resume sections from json file
-    this.resumeService.getResumeSections().subscribe(result => {
-      this.resumeSections = result;
-    });
   }
 
 }

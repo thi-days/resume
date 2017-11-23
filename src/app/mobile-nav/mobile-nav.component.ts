@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ResumeSections } from '../models/resume-sections.model';
 
 @Component({
   selector: 'app-mobile-nav',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mobile-nav.component.css']
 })
 export class MobileNavComponent implements OnInit {
+
+  @Input()
+  private resumeSections: ResumeSections;
 
   constructor() { }
 
