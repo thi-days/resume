@@ -137,12 +137,12 @@
     "courses": [{
         "course": "Bacharelado em Ciências da Computação",
         "institute": "Universidade Paulista",
-        "period": "2014 - 2018"
+        "period": "2014 - 2018 (Cursando)"
       },
       {
         "course": "Curso de Desenvolvimento WEB com ES6, TypeScript e Angular 4",
         "institute": "Udemy",
-        "period": "2017"
+        "period": "2017 (Cursando)"
       },
       {
         "course": "Magical Marvels of MongoDB",
