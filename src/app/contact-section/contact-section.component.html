@@ -10,31 +10,31 @@
           <form class="rsForm" action="php/mailsender.php" method="post">
             <div class="input-field">
               <label>Nome</label>
-              <input type="text" name="rsName" value="">
+              <input [(ngModel)]="name" type="text" name="rsName" value="">
               <span class="line"></span>
             </div>
 
             <div class="input-field">
               <label>Email</label>
-              <input type="email" name="rsEmail" value="">
+              <input [(ngModel)]="email" type="email" name="rsEmail" value="">
               <span class="line"></span>
             </div>
 
             <div class="input-field">
               <label>Assunto</label>
-              <input type="text" name="rsSubject" value="">
+              <input [(ngModel)]="subject" type="text" name="rsSubject" value="">
               <span class="line"></span>
             </div>
 
             <div class="input-field">
               <label>Mensagem</label>
-              <textarea rows="4" name="rsMessage"></textarea>
+              <textarea [(ngModel)]="message" rows="4" name="rsMessage"></textarea>
               <span class="line"></span>
             </div>
 
             <span class="btn-outer btn-primary-outer ripple">
-                                  <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Enviar">
-                              </span>
+              <button class="rsFormSubmit btn btn-lg btn-primary" (click)="sendMail()">Enviar</button>
+            </span>
           </form>
         </div>
       </div>

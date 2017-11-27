@@ -9,6 +9,11 @@ import { About } from '../models/about.model';
 })
 export class ContactSectionComponent implements OnInit {
 
+  private name: string;
+  private email: string;
+  private subject: string;
+  private message: string;
+
   constructor() { }
 
   @Input()
@@ -18,6 +23,10 @@ export class ContactSectionComponent implements OnInit {
   aboutData: About;
 
   ngOnInit() {
+  }
+
+  private sendMail(): void {
+    window.open(`mailto:<${this.name}>${this.email}?subject=${this.subject}&body=${this.message}`, '_blank');
   }
 
 }

@@ -1,7 +1,7 @@
 {
   "profilePicture": {
     "alt": "",
-    "imgPath": "assets/img/uploads/rs-photo-v1.jpg",
+    "imgPath": "assets/img/uploads/thiago-dias-picture.jpg",
     "url": ""
   },
 
@@ -14,7 +14,8 @@
     "age": 23,
     "email": "thiagodbrt@gmail.com",
     "phone": "+55 11 9 9108-0203",
-    "freelance": "2017-12-25T00:00:00.000Z"
+    "freelance": "2017-12-25T00:00:00.000Z",
+    "vacation": "2017-12-25T00:00:00.000Z"
   },
 
   "social": {
@@ -225,7 +226,14 @@
 
   "references": {
     "title": "Referências",
-    "references": [{
+    "references": [
+      {
+        "name": "Diego Teruel",
+        "avatar": "assets/img/uploads/diego-avatar.png",
+        "company": "ProIT Server",
+        "reference": "O Thiago é uma pessoa muito comprometida, dedicada e atenciosa. Nós, da ProIT Server, ficamos muito satisfeitos com o trabalho realizado em nosso site por ele."
+      },
+      {
         "name": "Alexander Jokovich",
         "avatar": "assets/img/uploads/rs-avatar-60x60.jpg",
         "company": "PINEAPPLE",
@@ -235,12 +243,6 @@
         "name": "James Bond",
         "avatar": "assets/img/uploads/rs-avatar-60x60.jpg",
         "company": "PINEAPPLE 2",
-        "reference": ""
-      },
-      {
-        "name": "William Shakespeare",
-        "avatar": "assets/img/uploads/rs-avatar-60x60.jpg",
-        "company": "PINEAPPLE 3",
         "reference": ""
       }
     ]
