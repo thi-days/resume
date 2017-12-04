@@ -11,13 +11,13 @@ import { ProfilePicture } from '../models/profile-picture.model';
 export class SidebarComponent implements OnInit {
 
   @Input()
-  private aboutData: About;
+  public aboutData: About;
 
   @Input()
-  private generalData: General;
+  public generalData: General;
 
   @Input()
-  private profilePicture: ProfilePicture;
+  public profilePicture: ProfilePicture;
 
   constructor() { }
 

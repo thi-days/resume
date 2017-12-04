@@ -9,7 +9,7 @@ import { WorkExperiences } from '../models/work-experiences.model';
 export class ExperienceSectionComponent implements OnInit {
 
   @Input()
-  private workExpData: WorkExperiences;
+  public workExpData: WorkExperiences;
 
   constructor() { }
 

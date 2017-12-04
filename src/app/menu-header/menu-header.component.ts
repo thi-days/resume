@@ -9,7 +9,7 @@ import { ResumeSections } from '../models/resume-sections.model';
 export class MenuHeaderComponent implements OnInit {
 
   @Input()
-  private resumeSections: ResumeSections;
+  public resumeSections: ResumeSections;
 
   constructor() { }
 

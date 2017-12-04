@@ -9,7 +9,7 @@ import { Education } from '../models/education.model';
 export class EducationSectionComponent implements OnInit {
 
   @Input()
-  private educationData: Education;
+  public educationData: Education;
 
   constructor() { }
 

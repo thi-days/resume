@@ -13,19 +13,19 @@ import { ProfilePicture } from '../models/profile-picture.model';
 export class AboutSectionComponent {
 
   @Input()
-  private generalData: General;
+  public generalData: General;
 
   @Input()
-  private aboutData: About;
+  public aboutData: About;
 
   @Input()
-  private socialData: Social;
+  public socialData: Social;
 
   @Input()
-  private freeDescription: FreeDescription;
+  public freeDescription: FreeDescription;
 
   @Input()
-  private profilePicture: ProfilePicture;
+  public profilePicture: ProfilePicture;
 
   constructor() { }
 

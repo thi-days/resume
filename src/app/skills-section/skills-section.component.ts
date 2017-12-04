@@ -11,7 +11,7 @@ export class SkillsSectionComponent implements OnInit {
   constructor() { }
 
   @Input()
-  private skillsData: Skills;
+  public skillsData: Skills;
 
   ngOnInit() {
   }

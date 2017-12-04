@@ -9,7 +9,7 @@ import { Portfolio } from '../models/portfolio.model';
 export class PortfolioSectionComponent implements OnInit {
 
   @Input()
-  private portfolioData: Portfolio;
+  public portfolioData: Portfolio;
 
   constructor() { }
 

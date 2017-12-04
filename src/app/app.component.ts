@@ -15,12 +15,12 @@ import { ResumeSections } from './models/resume-sections.model';
 export class AppComponent implements OnInit {
 
   // Resume fetched data that will be shared along all application
-  private resumeData: Resume;
-  private resumeSections: ResumeSections;
+  public resumeData: Resume;
+  public resumeSections: ResumeSections;
 
   constructor(
     // Dependency Injection of ResumeService
-    private resumeService: ResumeService
+    public resumeService: ResumeService
   ) {
     //
   }

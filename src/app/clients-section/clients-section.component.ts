@@ -9,7 +9,7 @@ import { Logo } from '../models/logos.model';
 export class ClientsSectionComponent implements OnInit {
 
   @Input()
-  private clientsData: Logo[] = [];
+  public clientsData: Logo[] = [];
 
   constructor() { }
 

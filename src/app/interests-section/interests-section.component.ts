@@ -9,7 +9,7 @@ import { Interests } from '../models/interests.model';
 export class InterestsSectionComponent implements OnInit {
 
   @Input()
-  private interestsData: Interests;
+  public interestsData: Interests;
 
   constructor() { }
 
