@@ -9,7 +9,7 @@ import { Social } from '../models/social.model';
 export class FooterComponent implements OnInit {
 
   @Input()
-  socialData: Social;
+  public socialData: Social;
 
   constructor() { }
 
