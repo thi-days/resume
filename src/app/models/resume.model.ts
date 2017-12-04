@@ -11,6 +11,7 @@ import { Interest } from './interest.model';
 import { Contact } from './contact.model';
 import { ProfilePicture } from './profile-picture.model';
 import { Skills } from './skills.model';
+import { WorkExperiences } from './work-experiences.model';
 
 export class Resume {
 
@@ -21,7 +22,7 @@ export class Resume {
     public freeDescription: FreeDescription;
     public skills: Skills;
     public portfolios: Portfolio[];
-    public experiences: WorkExperience[];
+    public experience: WorkExperiences;
     public education: Education[];
     public logos: Logo[];
     public references: Reference[];
