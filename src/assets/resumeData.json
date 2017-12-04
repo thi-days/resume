@@ -232,18 +232,6 @@
         "avatar": "assets/img/uploads/diego-avatar.png",
         "company": "ProIT Server",
         "reference": "O Thiago é uma pessoa muito comprometida, dedicada e atenciosa. Nós, da ProIT Server, ficamos muito satisfeitos com o trabalho realizado em nosso site por ele."
-      },
-      {
-        "name": "Alexander Jokovich",
-        "avatar": "assets/img/uploads/rs-avatar-60x60.jpg",
-        "company": "PINEAPPLE",
-        "reference": "I confirm that I have dealt with New Company Ltd since 1998. Their work has been a major factor in our website's success, helping it to become one of the most visited resources of its kind on the Internet."
-      },
-      {
-        "name": "James Bond",
-        "avatar": "assets/img/uploads/rs-avatar-60x60.jpg",
-        "company": "PINEAPPLE 2",
-        "reference": ""
       }
     ]
   },
@@ -253,7 +241,7 @@
   },
 
   "interests": {
-    "description": "Eu tenho um enorme interesse em música e produção musical. Sou tecladista na igreja que frequento e nas horas livres gosto de gravar minhas versões tocadas das músicas que conheço. Quando não estou fazendo isso, certamente estou assistindo filmes ou passeando. =)",
+    "description": "Gosto de viajar com os amigos, sair para comer um bom sanduíche e tocar teclado no tempo livre.<br>Mas se for pra ficar em casa, que seja com um bom filme! =)",
     "interests": [{
         "name": "Hamburguerias",
         "icon": "food"
