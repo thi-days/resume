@@ -1,0 +1,299 @@
+{
+  "profilePicture": {
+    "alt": "",
+    "imgPath": "assets/img/uploads/thiago-dias-picture.jpg",
+    "url": ""
+  },
+
+  "general": {
+    "name": "Thiago Dias",
+    "ocupation": "Desenvolvedor Front-End"
+  },
+
+  "about": {
+    "age": 23,
+    "email": "thiagodbrt@gmail.com",
+    "phone": "+55 11 9 9108-0203",
+    "freelance": "2017-12-25T00:00:00.000Z"
+  },
+
+  "social": {
+    "facebook": "https://facebook.com/thi.days",
+    "twitter": "https://twitter.com/thi_days",
+    "linkedin": "https://linkedin.com/in/thidays",
+    "google_plus": "",
+    "dribble": "",
+    "instagram": ""
+  },
+
+  "freeDescription": {
+    "buttonUrl": "https://github.com/thi-days/resume",
+    "buttonText": "Ver código-fonte no Github",
+    "text": "Estudante de Ciência da Computação, sempre fui apaixonado por tecnologia e computadores. Trabalho desde os 15 anos com desenvolvimento de software. Comecei com desenvolvimento na linguagem Delphi e .NET e atualmente estou focado em me especializar na área de Web e Mobile com ferramentas Angular, Node.js, MongoDB, Bootstrap e Firebase. Sou um profissional com elevada capacidade de aprendizagem, adoro novos desafios e de trabalhar em equipe."
+  },
+
+  "skills": {
+    "title": "Habilidades Profissionais",
+    "skills": [{
+        "name": "Angular 5",
+        "percent": 75
+      },
+      {
+        "name": "Node.js | Express.js",
+        "percent": 50
+      },
+      {
+        "name": "Firebase (Real-time Database)",
+        "percent": 50
+      },
+      {
+        "name": "MongoDB",
+        "percent": 50
+      },
+      {
+        "name": "Javascript | Typescript",
+        "percent": 80
+      },
+      {
+        "name": "HTML5 | CSS3 | Bootstrap 4",
+        "percent": 60
+      },
+      {
+        "name": "Git | SVN",
+        "percent": 80
+      },
+      {
+        "name": "Scrum",
+        "percent": 80
+      },
+      {
+        "name": "MySQL | SQL Server | SQLite",
+        "percent": 65
+      },
+      {
+        "name": "C# .NET",
+        "percent": 50
+      }
+    ]
+  },
+
+  "portfolio": [{
+      "name": "Street Photography",
+      "category": "",
+      "url": "http://google.com.br",
+      "imgPath": "about:blank"
+    },
+    {
+      "name": "Suspension Bridge",
+      "category": "",
+      "url": "http://google.com.br",
+      "imgPath": "about:blank"
+    },
+    {
+      "name": "Rocky Mountains",
+      "category": "",
+      "url": "http://google.com.br",
+      "imgPath": "about:blank"
+    }
+  ],
+
+  "experience": {
+    "title": "Experiência Profissional",
+    "experiences": [{
+        "company": "TARGET.IT",
+        "ocupation": "Desenvolvedor SAP Hybris Pleno",
+        "period": "Jan/2017 - Set/2017",
+        "description": "A equipe da Quasar Digital fez uma união com a TargetIT Serviços em Tecnologia e então iniciei em um novo desafio: <b>SAP Hybris</b>. Este é um Commerce recente desevolvida pela SAP e fui responsável por participar do levantamento de requisitos com o cliente, desenvolvimento de POCs para apresentações e do desenvolvimento do projeto O-Roge. <br><br>As tecnologias utilizadas no desenvolvimento desse projeto foram <b>Java Spring MVC, Javascript e Boostrap, banco de dados MySQL e outros recursos internos desenvolvidos pela SAP no Hybris.</b>"
+      },
+      {
+        "company": "QUASAR DIGITAL",
+        "ocupation": "Desenvolvedor Web (Fullstack)",
+        "period": "Set/2016 - Jan/2017",
+        "description": "Fui desafiado a participar do projeto Leiloar.NET onde desenvolvemos um sistema de leilão online. Durante o projeto, fiz diversas visitas ao cliente e levantei os requisitos necessários para o desenvolvimento do sistema. <br><br>As tecnologias utilizadas foram <b>Bootstrap, Angular.js 1.x, Node.js, Express.js e MongoDB – também conhecido com MEAN Stack.</b>"
+      },
+      {
+        "company": "ADAMOS TECNOLOGIA",
+        "ocupation": "Programador Júnior",
+        "period": "Set/2013 - Set/2016",
+        "description": "Em 2013 fui responsável pelo desenvolvimento do sistema corporativo de cloud backup utilizando <b>Web services, linguagem de programação Delphi e bancos de dados MySQL e SQLite</b>. <br><br>Em 2015 participei do <b>desenvolvimento de um software de acesso remoto</b> com controle de cobrança integrado também utilizando Delphi, MySQL e SQLite. <br><br>Em 2016 participei do projeto de <b>atualização do sistema gerenciador de licenças</b> da empresa."
+      },
+      {
+        "company": "ACE SEGURADORA S.A",
+        "ocupation": "Analista de Operações Jr",
+        "period": "Jun/2012 - Jun/2013",
+        "description": "Fui responsável pelos processos internos de cobrança da seguradora automatizando os processos com desenvolvimento C#. <br><br>- Fiz a automatização dos processos com desenvolvimento C#.NET. <br>- Administração de base: Adesão, endosso, cancelamentos, reativação e restituição. <br>- Faturamento, cobrança (débito automático layout FEBRABAN e CNAB400) e cobrança via cartão de crédito TEF dedicado - SiTef). <br>- Geração de relatório - Microsoft Reporting Services. <br><br>As tecnologias utlizadas foram <b>C#.NET, .NET Framework, ADO.NET e Entity Framework, SQL Server 2008 e Windows Forms"
+      },
+      {
+        "company": "ZEEO TECHNOLOGY",
+        "ocupation": "Programador Júnior",
+        "period": "Ago/2008 - Mai/2012",
+        "description": "Início da carreira de desenvolvimento. Aqui aprendi os principais fundamentos de POO e Banco de Dados. Adquiri experiência com Delphi e Firebird SQL. Participei do desenvolvimento da aplicação de ERP da empresa. <br><br>As tecnologias utilizadas foram <b>Delphi, Firebird, InterBase e RaveReports</b>."
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Formação e Especialização",
+    "courses": [{
+        "course": "Bacharelado em Ciências da Computação",
+        "institute": "Universidade Paulista",
+        "period": "2014 - 2018 (Quase lá!)"
+      },
+      {
+        "course": "Curso de Desenvolvimento WEB com ES6, TypeScript e Angular 4",
+        "institute": "Udemy",
+        "period": "2017 (Cursando)"
+      },
+      {
+        "course": "Magical Marvels of MongoDB",
+        "institute": "Code School",
+        "period": "2016"
+      },
+      {
+        "course": "Building Blocks of Express.js",
+        "institute": "Code School",
+        "period": "2016"
+      },
+      {
+        "course": "Real-time Web with Node.js",
+        "institute": "Code School",
+        "period": "2016"
+      },
+      {
+        "course": "Staying Sharp with Angular.js",
+        "institute": "Code School",
+        "period": "2016"
+      },
+      {
+        "course": "Shaping up with Angular.js",
+        "institute": "Code School",
+        "period": "2016"
+      },
+      {
+        "course": "Ensino Médio",
+        "institute": "ETEC Júlio de Mesquita",
+        "period": "2009 - 2011"
+      }
+    ]
+  },
+
+  "logos": [{
+      "description": "Angular",
+      "imgPath": "assets/img/uploads/logos/logo-angular.png"
+    },
+    {
+      "description": "Node.js",
+      "imgPath": "assets/img/uploads/logos/logo-nodejs.png"
+    },
+    {
+      "description": "Firebase",
+      "imgPath": "assets/img/uploads/logos/logo-firebase.png"
+    },
+    {
+      "description": "MongoDB",
+      "imgPath": "assets/img/uploads/logos/logo-mongodb.png"
+    },
+    {
+      "description": "Bootstrap 4",
+      "imgPath": "assets/img/uploads/logos/logo-bootstrap.png"
+    },
+    {
+      "description": "jQuery",
+      "imgPath": "assets/img/uploads/logos/logo-jquery.png"
+    },
+    {
+      "description": "Jasmine",
+      "imgPath": "assets/img/uploads/logos/logo-jasmine.png"
+    },
+    {
+      "description": "Typescript",
+      "imgPath": "assets/img/uploads/logos/logo-typescript.png"
+    },
+    {
+      "description": "Git",
+      "imgPath": "assets/img/uploads/logos/logo-git.png"
+    },
+    {
+      "description": "WordPress",
+      "imgPath": "assets/img/uploads/logos/logo-wordpress.png"
+    },
+    {
+      "description": "WooCommerce",
+      "imgPath": "assets/img/uploads/logos/logo-woocommerce.png"
+    }
+  ],
+
+  "references": {
+    "title": "Referências",
+    "references": [
+      {
+        "name": "Diego Teruel",
+        "avatar": "assets/img/uploads/diego-avatar.png",
+        "company": "ProIT Server",
+        "reference": "O Thiago é uma pessoa muito comprometida, dedicada e atenciosa. Nós, da ProIT Server, ficamos muito satisfeitos com o trabalho realizado em nosso site por ele."
+      }
+    ]
+  },
+
+  "pricing": {
+
+  },
+
+  "interests": {
+    "description": "Gosto de viajar com os amigos, sair para comer um bom sanduíche e tocar teclado no tempo livre.<br>Mas se for pra ficar em casa, que seja com um bom filme! =)",
+    "interests": [{
+        "name": "Hamburguerias",
+        "icon": "food"
+      },
+      {
+        "name": "Cinema",
+        "icon": "movie-theater"
+      },
+      {
+        "name": "Leitura",
+        "icon": "book-store"
+      },
+      {
+        "name": "Natação",
+        "icon": "swimming"
+      },
+      {
+        "name": "Shopping",
+        "icon": "department-store"
+      },
+      {
+        "name": "Igreja",
+        "icon": "church"
+      },
+      {
+        "name": "Animais",
+        "icon": "pet-store"
+      },
+      {
+        "name": "Estudos",
+        "icon": "university"
+      },
+      {
+        "name": "Investimentos",
+        "icon": "bank"
+      }
+    ]
+  },
+
+  "calendar": {
+
+  },
+
+  "contact": {
+    "title": "Contato",
+    "address": "Rua Baltazar Barbosa, 181",
+    "phone": "11 9 9108-0203",
+    "email": "thiagodbrt@gmail.com",
+    "skype": "thi.itech",
+    "maps": {
+      "latitude": "",
+      "longitude": "",
+      "zoom": ""
+    }
+  }
+}
